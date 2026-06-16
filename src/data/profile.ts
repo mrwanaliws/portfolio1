@@ -7,7 +7,7 @@ export const profile = {
   contact: {
     github: 'https://github.com/marwanali',
     linkedin: 'https://www.linkedin.com/in/marwan-ali-mohamed',
-    email: 'mailto:hello@marwanali.dev',
+    email: 'mailto:mrwanali257@gmail.com',
     phone: 'tel:+201224038870',
     resume: 'https://marwanali.dev/resume.pdf'
   },

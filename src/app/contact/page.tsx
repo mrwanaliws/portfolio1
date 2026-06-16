@@ -9,7 +9,7 @@ export default function ContactPage() {
       <p className="text-slate-300 mb-6">Send a message — I'll respond within 48 hours.</p>
       <div className="mb-8">
         <p className="text-slate-300">📱 Phone: <span className="font-semibold">{profile.phone}</span></p>
-        <p className="text-slate-300 mt-2">📧 Email: <a href={profile.contact.email} className="text-cyan-300 hover:text-cyan-200">hello@marwanali.dev</a></p>
+        <p className="text-slate-300 mt-2">📧 Email: <a href={profile.contact.email} className="text-cyan-300 hover:text-cyan-200">mrwanali257@gmail.com</a></p>
       </div>
       <div className="max-w-2xl">
         <ContactForm />

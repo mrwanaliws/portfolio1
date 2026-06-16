@@ -33,9 +33,22 @@ export async function POST(request: Request) {
       text: message,
       html: `<p>${message}</p><p>From: ${name} &lt;${email}&gt;</p>`
     })
+    return NextResponse.json({
+        success: true
+    })
 
-    return NextResponse.json({ ok: true, info })
-  } catch (err) {
-    return NextResponse.json({ error: 'Server error' }, { status: 500 })
-  }
+    
+  
+    
+  
+
+
+} catch (err) {
+  console.error('EMAIL ERROR:', err)
+
+  return NextResponse.json(
+    { error: String(err) },
+    { status: 500 }
+  )
+}
 }
