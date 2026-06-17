@@ -29,7 +29,13 @@ export default function Footer() {
              
             
 
-          <Link href="/contact" className="text-slate-300 hover:text-white transition">Contact</Link>
+          <Link
+  href="/contact"
+  className="text-slate-300 hover:text-white transition"
+>
+  Contact
+</Link>
+          
         </div>
       </div>
     </footer>
