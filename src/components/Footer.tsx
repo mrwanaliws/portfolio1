@@ -26,17 +26,13 @@ export default function Footer() {
   Email
 </a>
 
-             
-            
 
-        
-
-<Link
+    <Link
   href="/contact"
-  className="text-slate-300 hover:text-white transition"
+  className="relative z-[9999] text-slate-300 hover:text-white transition"
 >
   Contact
-</Link>
+</Link> 
           
         </div>
       </div>
