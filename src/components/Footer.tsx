@@ -29,7 +29,9 @@ export default function Footer() {
              
             
 
-          <Link
+        
+
+<Link
   href="/contact"
   className="text-slate-300 hover:text-white transition"
 >
