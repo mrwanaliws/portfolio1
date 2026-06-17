@@ -4,9 +4,9 @@ import React from 'react'
 import { usePathname } from 'next/navigation'
 
 const nav = [
-  { href: '/', label: 'Home' },
-  { href: '/#services', label: 'Services' },
-  { href: '/contact', label: 'Contact' }
+  { href: "/", label: "Home" },
+  { href: "/#services", label: "services" },
+{ href: "/contact", label: "Contact" },
 ]
 
 export default function Header() {
@@ -21,7 +21,7 @@ export default function Header() {
               const isActive = pathname === n.href || (n.href === '/#services' && pathname === '/')
               return (
                 <li key={n.href}>
-                  <Link href={n.href} className={`text-slate-300 hover:text-white ${isActive ? 'text-white underline' : ''}`}>
+                  <Link href={n.href} scroll={true} className={`text-slate-300 hover:text-white ${isActive ? 'text-white underline' : ''}`}>
                     {n.label}
                   </Link>
                 </li>
