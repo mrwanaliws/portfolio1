@@ -1,22 +1,22 @@
 export const services = [
   {
-    id: 'analysis',
-    title: 'Data Analysis',
-    description: 'Extract actionable insights from complex datasets using statistical modeling and visualization.'
+    id: 'ai',
+    title: 'Artificial Intelligence',
+    description: 'Exploring AI technologies and building intelligent applications that solve real-world problems.'
   },
   {
-    id: 'machine-learning',
+    id: 'ml',
     title: 'Machine Learning',
-    description: 'Develop and deploy predictive models for business optimization and forecasting.'
+    description: 'Training and evaluating predictive models using modern machine learning techniques.'
   },
   {
-    id: 'data-engineering',
-    title: 'Data Engineering',
-    description: 'Build scalable, reliable data pipelines and analytics platforms for production workflows.'
+    id: 'data',
+    title: 'Data Analysis',
+    description: 'Transforming raw data into actionable insights through analysis, statistics, and visualization.'
   },
   {
-    id: 'dashboard',
-    title: 'Analytics Dashboards',
-    description: 'Deliver modern dashboards that make insights accessible and decision-ready for stakeholders.'
+    id: 'dev',
+    title: 'Web & Mobile Development',
+    description: 'Building modern web and mobile applications with a focus on performance and user experience.'
   }
 ]

@@ -10,7 +10,7 @@ export default function Hero() {
     <section className="mb-12">
       <MotionDiv initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
         <p className="text-sm uppercase tracking-[0.32em] text-cyan-300 mb-4">{profile.title}</p>
-        <h2 className="text-4xl md:text-6xl font-extrabold leading-tight">I build intelligent data systems that turn complexity into clarity.</h2>
+        <h2 className="text-4xl md:text-6xl font-extrabold leading-tight">Exploring Artificial Intelligence to build smart solutions for real-world challenges.</h2>
         <p className="mt-6 text-slate-300 max-w-2xl">{profile.about}</p>
         <div className="mt-6 text-slate-300">
           <p>📱 <span className="font-semibold">{profile.phone}</span></p>

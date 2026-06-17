@@ -9,14 +9,14 @@ export default function AboutSection() {
           <div className="hero-profile mb-6">
             <img src="/profile.jpg" alt="Marwan Ali Mohamed" className="w-full h-full object-cover" />
           </div>
-          <h2 className="text-3xl font-bold mb-2">About Me</h2>
-          <p className="text-slate-300">I am Marwan Ali Mohamed, an AI and Data Analysis Engineer who builds intelligent analytics systems for real-world decision-making. I combine statistical modeling, machine learning, and modern data engineering to help teams unlock actionable insights from complex datasets.</p>
+          <h2 className="text-3xl font-bold mb-2">About </h2>
+          <p className="text-slate-300">I am a fourth-year Computer Science student specializing in Artificial Intelligence, Machine Learning, and Data Analysis. My interests extend to Web Development and Mobile Application Development, where I enjoy building practical and scalable solutions. Through academic studies and personal projects, I have developed strong analytical and problem-solving skills, with a continuous drive to learn, innovate, and create technology that delivers real-world value.</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <StatsCard title="Core Expertise" value="Machine Learning, Data Engineering, Analytics" />
-          <StatsCard title="Education" value="AI & Data Analysis" />
-          <StatsCard title="Tools" value="Python, SQL, TensorFlow, Power BI" />
-          <StatsCard title="Focus" value="Scalable data systems & predictive intelligence" />
+          <StatsCard title="Core Expertise" value="full-stack, Data Analysis, " />
+          <StatsCard title="Education" value="Bachelor of Computer Science & AI Specialization" />
+          <StatsCard title="Tools" value="Python, SQL, Git, GitHub, VS Code," />
+          <StatsCard title="Focus" value="AI, Machine Learning, Data Analysis, Web Development, Mobile Development, " />
         </div>
       </div>
     </section>

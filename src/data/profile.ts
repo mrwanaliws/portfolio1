@@ -1,8 +1,8 @@
 export const profile = {
   name: 'Marwan Ali Mohamed',
-  title: 'AI and Data Analysis Engineer',
-  description: 'AI and Data Analysis Engineer focused on transforming data into reliable insights and scalable intelligence systems.',
-  about: 'I am an AI and Data Analysis Engineer who builds intelligent analytics systems for real-world decision-making. I combine statistical modeling, machine learning, and modern data engineering to help teams unlock actionable insights from complex datasets.',
+  title: 'ARTIFICIAL INTELLIGENCE • MACHINE LEARNING • DATA ANALYTICS',
+  description: 'Computer Science Student | AI, Machine Learning & Data Analysis Enthusiast | Web & Mobile Developer',
+  about: 'I am a fourth-year Computer Science student passionate about Artificial Intelligence, Machine Learning, and Data Analysis. I am continuously developing my skills in building intelligent systems, analyzing complex datasets, and creating data-driven solutions. I also have experience in mobile and web application development, enabling me to combine software engineering with AI technologies to build impactful and user-focused products. ',
   phone: '+20 1224038870',
   contact: {
     github: 'https://github.com/marwanali',
@@ -15,10 +15,10 @@ export const profile = {
     degree: 'Bachelor of Computer Science',
     university: 'MTI University (Modern University for Technology & Information)',
     location: 'Cairo, Egypt',
-    status: '3rd Year Student',
+    status: '4th Year Student',
     gpa: '2.5',
     expectedGraduation: '2027',
-    description: 'Computer Science student specializing in Software Development, Artificial Intelligence, Data Analysis, Database Systems, and Full-Stack Development. Passionate about building intelligent applications, scalable systems, and data-driven solutions.'
+    description: 'Computer Science student at the Faculty of Computers and Artificial Intelligence with a strong passion for Artificial Intelligence, Machine Learning, Data Analysis, and Software Engineering. Dedicated to applying technology to solve real-world problems through intelligent systems, data-driven insights, and scalable software solutions. Experienced in web and mobile application development, with a continuous focus on learning and innovation.'
   },
   certificates: [
     {
