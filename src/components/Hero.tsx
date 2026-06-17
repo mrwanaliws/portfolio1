@@ -17,7 +17,16 @@ export default function Hero() {
         </div>
         <div className="mt-8 flex flex-col sm:flex-row gap-3">
           <a href="/contact" className="inline-flex items-center justify-center px-6 py-3 bg-primary text-slate-900 rounded-full font-medium">Work with me</a>
-          <a href="/contact" className="inline-flex items-center justify-center px-6 py-3 border border-slate-700 rounded-full text-slate-300">Get in touch</a>
+          <a
+  href="https://drive.google.com/file/d/1jOJb1kvPC8a3XY0crNUe5vdYd1Aj1Obj/view?usp=drivesdk"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center px-6 py-3 bg-primary text-slate-900 rounded-full font-medium hover:opacity-90 transition"
+>
+  View CV
+</a>
+        
+        
         </div>
       </MotionDiv>
     </section>
