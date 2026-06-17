@@ -17,7 +17,18 @@ export default function Footer() {
         <div className="flex flex-wrap gap-6">
           <a href={profile.contact.github} target="_blank" rel="noreferrer" className="text-slate-300 hover:text-white transition">GitHub</a>
           <a href={profile.contact.linkedin} target="_blank" rel="noreferrer" className="text-slate-300 hover:text-white transition">LinkedIn</a>
-          <a href={profile.contact.email} className="text-slate-300 hover:text-white transition">Email</a>
+          <a
+             href="https://mail.google.com/mail/?view=cm&fs=1&to=mrwanali257@gmail.com"
+             target="_blank"
+             rel="noreferrer"
+             className="text-slate-300 hover:text-white transition"
+>
+  Email
+</a>
+
+             
+            
+
           <Link href="/contact" className="text-slate-300 hover:text-white transition">Contact</Link>
         </div>
       </div>
