@@ -10,7 +10,7 @@ const nav = [
 ]
 
 export default function Header() {
-  const pathname = usePathname() || "/"
+  const pathname = usePathname()
 
   return (
     <header className="py-4 border-b border-slate-800 sticky top-0 z-30 backdrop-blur-sm bg-black/30">
