@@ -27,12 +27,12 @@ export default function Footer() {
 </a>
 
 
-    <Link
+   <a
   href="/contact"
   className="relative z-[9999] text-slate-300 hover:text-white transition"
 >
   Contact
-</Link> 
+</a>
           
         </div>
       </div>
