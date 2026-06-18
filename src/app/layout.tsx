@@ -20,7 +20,10 @@ export const metadata: Metadata = {
     "MTI University",
     "Portfolio"
   ],
+verification: {
 
+    google: "X_7jkxtBEIn4LR61r26xA_ptxIY2P5gJB6V7XrLz5-I",
+  },
   openGraph: {
     title: "Marwan Ali Mohamed | Portfolio",
     description:
