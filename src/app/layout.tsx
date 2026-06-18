@@ -8,13 +8,26 @@ import BackgroundPremium from '../components/BackgroundPremium'
 import PageTransition from '../components/PageTransition'
 
 export const metadata: Metadata = {
-  title: 'Marwan Ali Mohamed — AI and Data Analysis Engineer',
-  description: 'AI and Data Analysis Engineer specializing in intelligent data products, predictive modeling, and operational analytics.',
+  title: "Marwan Ali Mohamed | Portfolio",
+  description:
+    "Marwan Ali Mohamed, AI and Data Analysis Engineer and Computer Science Student at MTI University.",
+
+  keywords: [
+    "Marwan Ali Mohamed",
+    "Marwan Ali",
+    "AI Engineer",
+    "Data Analysis Engineer",
+    "MTI University",
+    "Portfolio"
+  ],
+
   openGraph: {
-    title: 'Marwan Ali Mohamed — AI and Data Analysis Engineer',
-    description: 'AI and Data Analysis Engineer specializing in intelligent data products, predictive modeling, and operational analytics.'
-  }
-}
+    title: "Marwan Ali Mohamed | Portfolio",
+    description:
+      "AI and Data Analysis Engineer and Computer Science Student at MTI University.",
+  },
+} 
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

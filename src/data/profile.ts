@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Marwan Ali Mohamed',
-  title: 'ARTIFICIAL INTELLIGENCE • MACHINE LEARNING • DATA ANALYTICS',
+  title: 'AI Engineer | Machine Learning | Data Analytics',
   description: 'Computer Science Student | AI, Machine Learning & Data Analysis Enthusiast | Web & Mobile Developer',
   about: 'I am a fourth-year Computer Science student passionate about Artificial Intelligence, Machine Learning, and Data Analysis. I am continuously developing my skills in building intelligent systems, analyzing complex datasets, and creating data-driven solutions. I also have experience in mobile and web application development, enabling me to combine software engineering with AI technologies to build impactful and user-focused products. ',
   phone: '+20 1224038870',
