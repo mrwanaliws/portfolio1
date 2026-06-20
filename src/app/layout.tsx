@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import "../styles/globals.css"
 import React from 'react'
 import { Metadata } from 'next'
 import Header from '../components/Header'
@@ -9,17 +9,55 @@ import PageTransition from '../components/PageTransition'
 
 export const metadata: Metadata = {
   title: "Marwan Ali Mohamed | Portfolio",
+  metadataBase: new URL("https://marwanalimohamed-delta-ten-87.vercel.app"),
   description:
     "Marwan Ali Mohamed, AI and Data Analysis Engineer and Computer Science Student at MTI University.",
+        
+  
+    keywords: [
+      "Marwan Ali Mohamed",
+      "Marwan Ali",
+      "AI Engineer",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Data Analysis",
+      "Data Analyst",
+      "Web Developer",
+      "Software Developer",
+      "MTI University",
+      "Computer Science",
+      "Portfolio",
+      "مروان علي محمد",
+      "مهندس الذكاء الاصطناعي",
+      "تحليل البيانات",
+      "مروان علي",
+      "مروان علي محمد عبد الرحيم",
+      "مطور ويب",
+      "مطور برامج",
+      "جامعة MTI",
+      "علوم الحاسوب",
+      "الجامعة الحديثة للتكنولوجيا والمعلومات",
+      "موقع مروان علي محمد", 
+      "مهندس ذكاء اصطناعي",
+      "ذكاء اصطناعي",
+      "تعلم الآلة",
+      "تحليل البيانات",
+      "محلل بيانات",
+      "علوم البيانات",
+      "بايثون",
+      "بنك المعلومات",
+      "لوحات المعلومات",
+      "مطور ويب",
+      "مطور برمجيات",
+      "حاسبات وذكاء اصطناعي",
+      "مشاريع ذكاء اصطناعي", 
+       "مشاريع تحليل بيانات",
+      "مشاريع تعلم الآلة",
+      "مشاريع علوم البيانات", 
+      "artificial intelligence",
+      "software engineer",
 
-  keywords: [
-    "Marwan Ali Mohamed",
-    "Marwan Ali",
-    "AI Engineer",
-    "Data Analysis Engineer",
-    "MTI University",
-    "Portfolio"
-  ],
+  ],  
 verification: {
 
     google: "X_7jkxtBEIn4LR61r26xA_ptxIY2P5gJB6V7XrLz5-I",
